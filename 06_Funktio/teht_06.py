@@ -1,6 +1,6 @@
 from math import pi
 def pizza(r, y):
-    m2 = pi * r ** 2
+    m2 = pi * (r/2) ** 2
     c = y/m2
     return c
 
