@@ -10,4 +10,5 @@ while True:
     if t < 0:
         break
     lista.append(t)
+print(lista)
 print(odd(lista))
