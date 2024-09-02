@@ -5,4 +5,5 @@ while luku !="":
     luvut.append(luku)
     luku = input("Anna luku: ")
 luvut.sort(reverse=True)
-print(luvut)
+for luku in luvut[:5]:
+    print(luku)
